@@ -1,0 +1,43 @@
+
+
+#header {
+    background-color: aqua;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+}
+
+#choice {
+
+}
+
+main {
+    display: flex;
+}
+
+#dialog {
+    background-color: beige;
+    height: 30rem;
+}
+
+#data {
+    background-color: blueviolet;
+    height: 10rem;
+}
+
+#charts_content {
+    width: 70%;
+    height: 40rem;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.charts {
+    width: 50%;
+    height: 50%;
+    background-color: burlywood;
+    overflow: hidden;
+}

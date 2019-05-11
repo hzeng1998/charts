@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <title>charts</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="choice">
+        <p style="float: left">模型选择:</p>
+        <select name="model" id="model">
+          <option value="lstm">lstm</option>
+          <option value=""></option>
+        </select>
+      </div>
+      <form id="inputForm" enctype="multipart/form-data">
+        <label for="file">数据选择</label>
+        <input type="file" name="file" id="file" />
+        <button type="submit">发送按钮</button>
+      </form>
+    </div>
+    <main>
+      <div style="width: 30%">
+        <div id="dialog">
+          <p>日志</p>
+          <div id="dialog_content"></div>
+        </div>
+        <div id="data">
+          <p>数据显示</p>
+          <div id="data_content"></div>
+        </div>
+      </div>
+      <div id="charts_content">
+        <div class="charts" id="charts_1"></div>
+        <div class="charts" id="charts_2"></div>
+        <div class="charts" id="charts_3"></div>
+        <div class="charts" id="charts_4"></div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="main.js"></script>
+    <script>
+    </script>
+  </body>
+</html>
